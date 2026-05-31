@@ -1,0 +1,9 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_TON_MANIFEST_URL": "https://<your-project-domain>/tonconnect-manifest.json",
+    "COMMISSION_PERCENT": "0.5",
+    "ADMIN_FEE_WALLET": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoA"
+  }
+}

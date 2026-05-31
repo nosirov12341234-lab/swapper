@@ -1,0 +1,31 @@
+
+# 2026-05-31 17:59:45.999321
++N
+
+# 2026-05-31 18:00:05.384459
++Men TON (The Open Network) tarmog'i uchun zamonaviy, PancakeSwap uslubidagi Swap platformasini yaratmoqchiman.
++​Texnik talablar:
++​Framework: Next.js (TypeScript) + Tailwind CSS.
++​TON Wallet: @tonconnect/ui-react kutubxonasidan foydalanib 'Connect Wallet' (TonKeeper/Telegram Wallet) tugmasini yarat.
++​Swap Logic: Foydalanuvchi tanlagan tokenlarni swap qilish uchun ton-core va ton-tlb kutubxonalarini ishlat.
++​Komissiya tizimi: >    - Swap uchun .env da belgilangan komissiya foizini (COMMISSION_PERCENT) hisoblab ol.
++​Swap jarayonida komissiya summasi .env dagi ADMIN_FEE_WALLET manziliga avtomatik yuborilishi kerak (bu qismni smart-kontrakt yoki oraliq sendTransaction logikasi bilan ko'rsat).
++​Dizayn: PancakeSwap uslubidagi 'Glassmorphism' dizayn, Dark Mode, silliq animatsiyalar va zamonaviy UI.
++​Vercel: Vercel-da build qilish uchun next.config.js va vercel.json sozlamalarini to'liq qil.
++​Kodni shunday yozki, men shunchaki Vercel-ga 'Deploy' qilib, .env o'zgaruvchilarini kiritishim bilan platforma to'liq ishlasin."
++
+
+# 2026-05-31 18:00:45.658020
++y
+
+# 2026-05-31 18:01:10.663774
++/run mkdir -p src/app src/components src/utils
+
+# 2026-05-31 18:01:10.663842
++/run mkdir -p src/app src/components src/utils
+
+# 2026-05-31 18:01:23.358037
++N
+
+# 2026-05-31 18:01:38.999681
++/exit
